@@ -12,11 +12,11 @@ export default function Weather() {
       <h3>
         <span className="current-temp">10</span>
         <span className="tempCF">
-          <a href="#" id="showCelcius" className="active">
+          <a href="/" id="showCelcius" className="active">
             °C
           </a>{" "}
           |{" "}
-          <a href="#" id="showFahrenheit">
+          <a href="/" id="showFahrenheit">
             °F
           </a>
         </span>
