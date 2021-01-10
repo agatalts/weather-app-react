@@ -1,0 +1,27 @@
+h3 {
+  font-size: 60px;
+  text-align: right;
+  color: #013672;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #014491;
+  margin-top: 0px;
+}
+
+.tempCF {
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+}
+
+.today-day-time {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  color: #014491;
+}
