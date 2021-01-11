@@ -3,6 +3,7 @@ import Search from "./Search.js";
 import Weather from "./Weather.js";
 import Weather2 from "./Weather2.js";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (

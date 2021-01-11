@@ -77,3 +77,8 @@ a:hover {
 .hours-and-temp {
   padding-right: 0;
 }
+
+h5 {
+  font-size: 11px;
+  font-family: "Rubik", sans-serif;
+}
