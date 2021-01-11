@@ -12,12 +12,10 @@ export default function App() {
       <div className="row">
         <div className="col-8">
           <Search />
-          <div className="city-container">
-            <h1>New York</h1>
-          </div>
+          
             <Weather />
           </div>
-        <div className="col-4" id="forecast"></div>
+        <div className="col-4"></div>
       </div>
     </div>
     <div className="openSource">

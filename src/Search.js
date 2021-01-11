@@ -5,10 +5,9 @@ import "bootstrap/dist/css/bootstrap.css";
 export default function Search() {
   return (
     <div>
-      <form id="city-form">
+      <form className="city-form">
         <input
           type="search"
-          id="city"
           placeholder="Change location"
           className="change-location"
           autoComplete="off"
