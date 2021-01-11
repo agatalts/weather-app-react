@@ -25,3 +25,15 @@ h4 {
   margin: 10px;
   color: #014491;
 }
+
+.humidity-wind {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  color: #014491;
+}
+
+.center-icon {
+  text-align: center;
+  width: 100%;
+}
