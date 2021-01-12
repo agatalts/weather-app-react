@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState ({ ready: false });
@@ -9,7 +10,7 @@ export default function Weather(props) {
   setWeatherData({
     ready: true,
     city: response.data.name,
-    date: "Sunday 10:00",
+    date: new Date((response.data.dt + response.data.timezone) * 1000),
     temperature: Math.round(response.data.main.temp),
     description: response.data.weather[0].description,
     imgUrl: "http://openweathermap.org/img/wn/01d@2x.png",
@@ -28,7 +29,7 @@ export default function Weather(props) {
     <div className="col-6">
       <ul className="today-day-time">
         <li>Last updated:</li>
-        <li className="day-and-time">{weatherData.date}</li>
+        <li className="day-and-time"><FormattedDate date={weatherData.date} /></li>
         <li>(local time)</li>
       </ul>
       <h3>
