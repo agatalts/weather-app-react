@@ -13,7 +13,7 @@ export default function App() {
         <div className="col-8">
           <Search />
           
-            <Weather />
+            <Weather defaultCity="Reykjavik" />
           </div>
         <div className="col-4"></div>
       </div>
