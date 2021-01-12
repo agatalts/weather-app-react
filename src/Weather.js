@@ -14,7 +14,7 @@ export default function Weather(props) {
     date: new Date((response.data.dt + response.data.timezone) * 1000),
     temperature: Math.round(response.data.main.temp),
     description: response.data.weather[0].description,
-    imgUrl: "http://openweathermap.org/img/wn/01d@2x.png",
+    imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     humidity: response.data.main.humidity,
     wind: Math.round(response.data.wind.speed * 10) / 10,
   });
