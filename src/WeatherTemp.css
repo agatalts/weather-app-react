@@ -1,7 +1,11 @@
-.changeCelsiusFahrenheit {
-  font-size: 20px;
-  position: relative;
-  top: -30px;
+a {
+  color: #2fd0dc;
+  transition: all 220ms ease-in-out;
+}
+
+a:hover {
+  color: #b9f6fa;
+  text-decoration: none;
 }
 
 h3 {
@@ -10,4 +14,10 @@ h3 {
   color: #b9f6fa;
   margin-bottom: 0;
   margin-right: 2px;
+}
+
+.changeCelsiusFahrenheit {
+  font-size: 20px;
+  position: relative;
+  top: -30px;
 }
