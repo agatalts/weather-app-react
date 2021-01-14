@@ -1,9 +1,10 @@
 import React from "react";
 import WeatherForecastIcons from "./WeatherForecastIcons";
 
+
 export default function WeatherForecastPreview(props) {
   function hours() {
-    let date = new Date(props.data.dt * 1000);
+    let date = new Date((props.data.dt + props.timezone) * 1000);
     let hours = date.getHours();
     return `${hours}:00`;
   }
