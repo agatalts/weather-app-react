@@ -26,5 +26,5 @@ export default function WeatherIcons(props) {
 
   }
   
-  return (<div><WeatherIcon iconId={codeMapping[props.code]} name="yahoo" className="iconLarge" /></div>);
+  return (<div><WeatherIcon iconId={codeMapping[props.code]} name="yahoo" className="iconSmall" /></div>);
 }

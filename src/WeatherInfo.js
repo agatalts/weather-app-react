@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcons from "./WeatherIcons";
 import WeatherTemp from "./WeatherTemp";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
@@ -10,7 +11,7 @@ export default function WeatherInfo(props) {
             <h1>{props.data.city}</h1>
           </div>
     <div className="row">
-    <div className="col-6">
+    <div className="col-6 pl-md-4 pr-md-0">
       <ul className="today-day-time">
         <li>Last updated:</li>
         <li className="day-and-time"><FormattedDate date={props.data.date} /></li>
