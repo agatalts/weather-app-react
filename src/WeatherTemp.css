@@ -1,0 +1,13 @@
+.changeCelsiusFahrenheit {
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+}
+
+h3 {
+  font-size: 55px;
+  text-align: right;
+  color: #013672;
+  margin-bottom: 0;
+  margin-right: 2px;
+}

@@ -17,10 +17,10 @@ export default function WeatherForecast(props) {
           
           
             <WeatherForecastPreview data={forecast.list[0]} timezone={forecast.city.timezone} />
-            <WeatherForecastPreview data={forecast.list[1]}timezone={forecast.city.timezone} />
-            <WeatherForecastPreview data={forecast.list[2]}timezone={forecast.city.timezone} />
-            <WeatherForecastPreview data={forecast.list[3]}timezone={forecast.city.timezone} />
-            <WeatherForecastPreview data={forecast.list[4]}timezone={forecast.city.timezone} />
+            <WeatherForecastPreview data={forecast.list[1]} timezone={forecast.city.timezone} />
+            <WeatherForecastPreview data={forecast.list[2]} timezone={forecast.city.timezone} />
+            <WeatherForecastPreview data={forecast.list[3]} timezone={forecast.city.timezone} />
+            <WeatherForecastPreview data={forecast.list[4]} timezone={forecast.city.timezone} />
         </div>
         
           

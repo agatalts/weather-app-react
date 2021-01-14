@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import "./WeatherTemp.css";
+
+
 
 export default function WeatherTemp(props) {
   const [unit, setUnit] = useState("celsius");
@@ -20,8 +23,8 @@ export default function WeatherTemp(props) {
  return (
    <div>
      <h3>
-    <span className="current-temp">{props.celsius}</span>
-        <span className="tempCF">
+    <span>{props.celsius}</span>
+        <span className="changeCelsiusFahrenheit">
           °C
           {" "}
           |{" "}
@@ -36,8 +39,8 @@ export default function WeatherTemp(props) {
     return (
     <div>
             <h3>
-        <span className="current-temp">{fahrenheit()}</span>
-        <span className="tempCF"><a href="/" onClick={showCelsius}>
+        <span>{fahrenheit()}</span>
+        <span className="changeCelsiusFahrenheit"><a href="/" onClick={showCelsius}>
           °C</a>
           {" "}
           |{" "}

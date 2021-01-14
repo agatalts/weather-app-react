@@ -7,23 +7,23 @@ import "./WeatherInfo.css";
 export default function WeatherInfo(props) {
   return (
     <div>
- <div className="city-container">
+ <div className="cityName">
             <h1>{props.data.city}</h1>
           </div>
     <div className="row">
     <div className="col-6 pl-md-4 pr-md-0">
-      <ul className="today-day-time">
+      <ul className="lastUpdate">
         <li>Last updated:</li>
-        <li className="day-and-time"><FormattedDate date={props.data.date} /></li>
+        <li><FormattedDate date={props.data.date} /></li>
         <li>(local time)</li>
       </ul>
 <WeatherTemp celsius={props.data.temperature}/>
       <h4 className="text-capitalize">{props.data.description}</h4>
     </div>
-    <div className="col-6 center-icon">
+    <div className="col-6 weatherIcon">
       <WeatherIcons code={props.data.icon} alt={props.data.description} />
       
-      <ul className="humidity-wind">
+      <ul className="humidityWind">
         <li>
           Humidity: {props.data.humidity}%
         </li>

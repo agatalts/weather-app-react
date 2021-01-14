@@ -1,54 +1,24 @@
-h3 {
-  font-size: 55px;
-  text-align: right;
-  color: #013672;
-  margin-bottom: 0;
-  margin-right: 2px;
+.container {
+  background: linear-gradient(135deg, #f0f6ff, #00bbf3);
+  border: 2px solid #014491;
+  border-radius: 6px;
+  margin: 60px auto;
+  margin-bottom: 3px;
+  width: 500px;
+  height: 323px;
+  font-family: "Rubik", sans-serif;
 }
 
-h4 {
-  font-size: 15px;
-  text-align: center;
-  color: #014491;
-  margin-top: 0px;
-}
-
-.tempCF {
-  font-size: 20px;
-  position: relative;
-  top: -30px;
-}
-
-.today-day-time {
-  font-size: 15px;
-  text-align: center;
-  margin: 10px;
-  margin-left: 18px;
-  color: #014491;
-}
-
-.humidity-wind {
-  font-size: 15px;
-  text-align: center;
-  margin: 10px;
-  color: #014491;
-}
-
-.center-icon {
-  text-align: center;
-  width: 100%;
-}
-
-.change-location {
-  margin: 12px 5px 12px 18px;
+.changeLocation {
+  margin: 12px 3px 12px 18px;
   background: transparent;
   color: #014491;
   border: 1px solid #014491;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 0px 5px 5px;
 }
 
-.search-button {
+.searchButton {
   margin: 3px;
   padding: 2px 7px;
   color: #014491;
@@ -58,13 +28,12 @@ h4 {
   border-radius: 5px;
 }
 
-.search-button:hover {
+.searchButton:hover {
   cursor: pointer;
   color: #014491;
   background: #82dbfc;
   border: 1px solid #014491;
 }
-
 ::placeholder {
   color: #014491;
   padding-left: 3px;

@@ -1,13 +1,41 @@
-.iconLarge {
-  margin-top: 30px;
-  font-size: 70px;
-  margin-bottom: 20px;
-  color: black;
+h1 {
+  font-size: 30px;
+  margin: auto;
+  vertical-align: middle;
+  color: #014491;
 }
 
-.iconSmall {
-  margin-top: 15px;
-  font-size: 25px;
-  margin-bottom: 2px;
-  color: black;
+h4 {
+  font-size: 15px;
+  text-align: center;
+  color: #014491;
+  margin-top: 0px;
+}
+
+.cityName {
+  text-align: center;
+  width: 100%;
+  background: #94dffb;
+  padding: 5px 0 7px;
+  margin: 0px 5px 5px 6px;
+  border-radius: 5px;
+}
+
+.lastUpdate {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  margin-left: 18px;
+  color: #014491;
+}
+
+.humidityWind {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  color: #014491;
+}
+
+.weatherIcon {
+  text-align: center;
 }

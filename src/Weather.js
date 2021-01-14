@@ -45,15 +45,15 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=
         <div className="container">
         <div className="row">
         <div className="col-8">
-       <form className="city-form" onSubmit={handleSubmit}>
+       <form onSubmit={handleSubmit}>
         <input
           type="search"
           placeholder="Change location"
-          className="change-location"
+          className="changeLocation"
           autoComplete="off"
           onChange={handleCityChange}
         />
-        <input type="submit" value="Search" className="search-button" />
+        <input type="submit" value="Search" className="searchButton" />
       </form>
     
    <WeatherInfo data={weatherData} />
