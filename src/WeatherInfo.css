@@ -2,20 +2,20 @@ h1 {
   font-size: 30px;
   margin: auto;
   vertical-align: middle;
-  color: #014491;
+  color: #75f0f7;
 }
 
 h4 {
   font-size: 15px;
   text-align: center;
-  color: #014491;
+  color: #2fd0dc;
   margin-top: 0px;
 }
 
 .cityName {
   text-align: center;
   width: 100%;
-  background: #94dffb;
+  background: linear-gradient(135deg, #074655, #136a78);
   padding: 5px 0 7px;
   margin: 0px 5px 5px 6px;
   border-radius: 5px;
@@ -26,14 +26,14 @@ h4 {
   text-align: center;
   margin: 10px;
   margin-left: 18px;
-  color: #014491;
+  color: #2fd0dc;
 }
 
 .humidityWind {
   font-size: 15px;
   text-align: center;
   margin: 10px;
-  color: #014491;
+  color: #2fd0dc;
 }
 
 .weatherIcon {

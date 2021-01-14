@@ -1,23 +1,11 @@
 a {
-  color: #00bbf3;
+  color: #2fd0dc;
   transition: all 220ms ease-in-out;
 }
 
 a:hover {
-  color: #053942;
+  color: #b9f6fa;
   text-decoration: none;
-}
-
-.active {
-  color: #013672;
-  transition: all 220ms ease-in-out;
-  cursor: default;
-  font-weight: bolder;
-}
-
-.active:hover {
-  text-decoration: none;
-  color: #013672;
 }
 
 h5 {
