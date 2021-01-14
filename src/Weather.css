@@ -12,7 +12,7 @@
 .changeLocation {
   margin: 12px 3px 12px 18px;
   background: transparent;
-  color: #24aab6;
+  color: #2fd0dc;
   border: 1px solid #24aab6;
   border-radius: 5px;
   padding: 5px 0px 5px 5px;
@@ -35,6 +35,6 @@
   border: 1px solid #24aab6;
 }
 ::placeholder {
-  color: #24aab6;
+  color: #2fd0dc;
   padding-left: 3px;
 }
