@@ -2,21 +2,21 @@ import React from "react";
 
 import Weather from "./Weather.js";
 
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
-  return (
+  return (<div>
     <div>
-      <div className="container">
-      <div className="row">
-        <div className="col-8">
+      
+       
           
           
             <Weather defaultCity="Reykjavik" />
-          </div>
-        <div className="col-4"></div>
-      </div>
+          
+          
+      
     </div>
     <div className="openSource">
       <h5>

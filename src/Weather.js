@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 
@@ -39,9 +40,12 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=
 
   if (weatherData.ready) {
   return (
-    <div>
-      <div>
-      <form className="city-form" onSubmit={handleSubmit}>
+    
+      
+        <div className="container">
+        <div className="row">
+        <div className="col-8">
+       <form className="city-form" onSubmit={handleSubmit}>
         <input
           type="search"
           placeholder="Change location"
@@ -51,10 +55,17 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=
         />
         <input type="submit" value="Search" className="search-button" />
       </form>
-    </div>
-   <WeatherInfo data={weatherData} />
-    </div>
     
+   <WeatherInfo data={weatherData} />
+     </div>
+        <div className="col-4">
+          
+          <WeatherForecast city={weatherData.city} />
+          
+          </div>
+      </div></div>
+    
+          
   );
 
   } else {

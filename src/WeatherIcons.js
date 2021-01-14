@@ -4,7 +4,6 @@ import "./WeatherIcons.css"
 import { WeatherIcon } from 'weather-react-icons';
 
 export default function WeatherIcons(props) {
-  console.log(props.code);
   const codeMapping = {
     "01d": 32,
     "01n": 31,
